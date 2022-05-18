@@ -37,13 +37,13 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          {/* {this.state.weather.data && <SearchByCity getCity={this.getCity} />} */}
+          {this.state.weather.data && <SearchByCity getCity={this.getCity} />}
         </header>
         <main>
           {" "}
-          {/* {this.state.weather.data && (
+          {this.state.weather.data && (
             <WeatherForcast weather={this.state.weather} />
-          )} */}
+          )}
         </main>
         <br />
         <div>
